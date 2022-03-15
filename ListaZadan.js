@@ -24,6 +24,7 @@ const ListaZadan = () => {
         } else {
           return <Zadanie key={zadanie.id} {...zadanie}></Zadanie>;
         }
+        return [];
       })}
     </div>
   );

@@ -6,7 +6,7 @@ const Alert = () => {
 
   useEffect(() => {
     const zegar = setTimeout(() => {
-      setAlert({ active: false, title: "", type: "" });
+      setAlert({ active: false, text: "", type: "" });
     }, 3000);
     return () => {
       clearTimeout(zegar);
